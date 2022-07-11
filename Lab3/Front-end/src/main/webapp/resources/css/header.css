@@ -1,0 +1,13 @@
+#header{
+
+    text-align: center;
+    font-family: "serif"; /*Каскодирование, правило задающее стиль непосредственно элементу «не конкурент»
+    							 правилу унаследованное от родительского элемента, он всегда важнее.*/
+    font-size: 50px;
+    color: black;
+    font-weight:bold;
+
+    border:2px solid white;
+    border-radius: 10px;
+
+}
