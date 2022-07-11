@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+}
+
+.panel{
+    position: absolute;
+    left: 325px;
+    top: 200px;
+    background-color: rgba(0, 50, 50, 0.5);
+    height: 300px;
+    width: 900px;
+}
+
+table {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+th, td:first-child {
+    background: #AFCDE7;
+    color: white;
+    padding: 10px 20px;
+
+}
+th, td {
+    text-align: center;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    max-width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+td {
+    background: #D8E6F3;
+}
+
+
+.backButton{
+    position: relative;
+    left: 40%;
+    top: 110px;
+    height: 40px;
+    width: 150px;
+}

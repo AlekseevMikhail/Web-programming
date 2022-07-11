@@ -1,0 +1,25 @@
+.title{
+    position: relative;
+    left: 40%;
+    font-size: 50px;
+}
+
+.main{
+    position: relative;
+    left: 34%;
+    font-size: 25px;
+    width: 500px;
+    overflow: auto;
+    border: black solid;
+    text-align: center
+
+}
+
+.back-form{
+    position: relative;
+    left: 43%;
+}
+
+.goToMain{
+    font-size: 25px;
+}
