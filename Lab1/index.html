@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Laba1</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+</head>
+    <body>
+        <div class="header-text">Алексеев Михаил Николаевич, P3214, вариант 2501 </div>
+        <canvas id="canvas"></canvas>
+        <table class="table">
+                <tr>
+                    <td class="table">
+                        <div id="label_x">X = 0</div>
+                    </td>
+                    <td class="table">
+                        <input type="text" id="x_param" name="x">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="table">
+                        <div id="label_y">Y = 0</div>
+                    </td>
+                    <td class="table">
+                        <form>
+                            <input class=checkbox type="checkbox" name="Y1" value="-2" onclick="set_y(-2)" checked>-2
+                            <input class=checkbox type="checkbox" name="Y2" value="-1.5" onclick="set_y(-1.5)">-1.5
+                            <input class=checkbox type="checkbox" name="Y3" value="-1" onclick="set_y(-1)">-1
+                            <input class=checkbox type="checkbox" name="Y4" value="-0.5" onclick="set_y(-0.5)">-0.5
+                            <input class=checkbox type="checkbox" name="Y5" value="0" onclick="set_y(0)">0
+                            <input class=checkbox type="checkbox" name="Y6" value="0.5" onclick="set_y(0.5)">0.5
+                            <input class=checkbox type="checkbox" name="Y7" value="1" onclick="set_y(1)">1
+                            <input class=checkbox type="checkbox" name="Y8" value="1.5" onclick="set_y(1.5)">1.5
+                            <input class=checkbox type="checkbox" name="Y9" value="2" onclick="set_y(2)">2
+                        </form>
+                    </td>
+                </tr>
+
+                <td class="table">
+                    <div id="label_r">R = 3</div>
+                </td>
+                <td class="table">
+                    <button type="button" value="1" id="r1" name="R" onclick="set_R('r1')">1</button>
+                    <button type="button" value="1.5" id="r2" name="R" onclick="set_R('r2')">1.5</button>
+                    <button type="button" value="2" id="r3" name="R" onclick="set_R('r3')">2</button>
+                    <button type="button" value="2.5" id="r4" name="R" onclick="set_R('r4')">2.5</button>
+                    <button type="button" value="3" id="r5" name="R" onclick="set_R('r5')">3</button>
+                </td>
+
+                <tr>
+                    <td class="table">
+                        <label>Кнопка ввода значений</label>
+                    </td>
+                    <td>
+                        <form action="treatment.php" method="POST">
+                            <button type="button" id="button" name="out_button">Ввод параметров</button>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <table class="result-table">
+                            <thead>
+                                <td>X</td>
+                                <td>Y</td>
+                                <td>R</td>
+                                <td>RESULT</td>
+                                <td>Current time</td>
+                                <td>Computation time</td>
+                            </thead>
+                            <tbody id="table_out">
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="Code_js/draw.js"></script>
+        <script src="Code_js/Valid.js"></script>
+        <script src="Code_js/post_out.js"></script>
+        <script src="Code_js/addToTable.js"></script>
+    </body>
+</html>
