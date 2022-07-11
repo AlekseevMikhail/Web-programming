@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+}
+
+#clock{
+    width: 600px;
+    height: 500px;
+    border: black solid;
+    border-right: none;
+}
+
+#digital-clock{
+    height: 100px;
+    position: relative;
+    left: 35%;
+}
+
+.description{
+    width: 600px;
+    height: 500px;
+    border: black solid;
+    border-left: none;
+}
+
+.container{
+    display: flex;
+    margin-left: 20%;
+}
+
+.desc-title{
+    position: relative;
+    left: 24%;
+}
+
+.navigator{
+    position: relative;
+    left: 30%;
+}
+
+.but{
+    width: 100px;
+    height: 30px;
+}

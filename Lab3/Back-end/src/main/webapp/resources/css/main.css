@@ -1,0 +1,146 @@
+#body_div{
+    font-size: 15px;
+
+    opacity: 0.85;
+
+    width: 750px;
+
+    border:2px solid black;
+    border-radius: 10px;
+
+}
+
+
+
+canvas {
+    display: block;
+    margin: 10px auto auto;
+
+
+}
+#resultTable{
+    border: 2px solid black;
+    text-align:center;
+    font-size: 30px;
+    table-layout: fixed;
+    width: 100%;
+}
+#resultTable td{
+    border: 1px solid black;
+}
+
+/*div.cell{
+
+    width: 100%;
+    overflow: auto;
+}*/
+
+#resultTable tr {
+    border: 1px solid black;
+    overflow: auto;
+    width: 100%;
+}
+/*#resultTable > thead{ /* Селектор потомков
+    font-size: 20px;
+    font-weight:bold;
+}*/
+.table_div {
+    border: black solid;
+    width: 100%;
+}
+
+.main_container{
+    display: flex;
+}
+.but{
+    border:2px solid white;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 125px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+#testform > .custom-class{
+
+    border:2px solid white;
+    border-radius: 10px;
+    background-color: lightgray;
+
+}
+#input_x{
+    margin-top: 15px;
+    width: 250px;
+}
+#input_y{
+    margin-top: 5px;
+    width: 245px;
+}
+[name="R"]{
+    margin-right: 10px;
+}
+#canvas_div{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#form_div{
+    display: flex;
+    position: relative;
+    left: 22%;
+
+}
+
+#hint_div{
+    float: right;
+    text-align: center;
+    width: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.hint{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+}
+#j_idt14\:navig{
+    font-size: 15px;
+    font-weight: bold;
+    border:2px solid white;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 100%;
+}
+.first_but{
+    margin-left: 17px;
+}
+#newResultForm\:y_input{
+    border:2px solid white;
+    border-radius: 10px;
+    width: 85%;
+    margin-left: 17px;
+}
+input{
+    margin-bottom: 5px;
+}
+.r{
+    width: 60px;
+}
+
+.x-inputs{
+    border: black solid;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.r-inputs{
+    border: black solid;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.y-inputs{
+    border: black solid;
+    width: 100%;
+    margin: 0 auto;
+}
